@@ -20,7 +20,7 @@ function App() {
       <input id="GP" type = "radio" name ="cargo" value ="Gerente de produtos" onChange={(e) =>setCargo(e.target.value)}/>
       <label htmlfor="GP">Gerente de produtos</label>
       <br/>
-      <p>Nome do membro:{nome} </p>
+      <p>Noembro:{nome} </p>
       <p>Cargo do membro:{cargo} </p>
 
     </div>
